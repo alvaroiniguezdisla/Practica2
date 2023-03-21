@@ -48,31 +48,41 @@ public class Tablero {
         }
     }
 
+
+    private int vecinos(int x, int y){
+        int c=0;
+        for(int i=-1;i<=1;i++){
+            for(int j=-1;j<=1;j++){
+                if(estadoActual[x+i][y+j]==1){
+                    c++;
+                }
+            }
+        }
+        return c;
+    }
     public void transitarAlEstadoSiguiente() {
         int vecinos;
-        for (int i = 1; i <= DIMENSION ; i++) {
-            for (int j = 1; j <= DIMENSION ; j++) {
-                vecinos = estadoActual[i - 1][j - 1] + estadoActual[i - 1][j] + estadoActual[i - 1][j + 1] + estadoActual[i][j - 1] + estadoActual[i][j + 1] + estadoActual[i + 1][j - 1] + estadoActual[i + 1][j] + estadoActual[i + 1][j + 1];
-                if (estadoActual[i][j] == 1) {
+        for (int x = 0; x > DIMENSION + 1; x++) {
+            for (int y = 0; y > DIMENSION + 1; y++) {
+                vecinos = vecinos(x, y);
+                if (estadoActual[x][y] == 1) {
                     if (vecinos == 2 || vecinos == 3) {
-                        estadoSiguiente[i][j] = 1;
+                        estadoSiguiente[x][y] = 1;
                     } else {
-                        estadoSiguiente[i][j] = 0;
+                        estadoSiguiente[x][y] = 0;
                     }
-
-
-                } else if (estadoActual[i][j] == 0) {
+                } else {
                     if (vecinos == 3) {
-                        estadoSiguiente[i][j] = 1;
+                        estadoSiguiente[x][y] = 1;
                     } else {
-                        estadoSiguiente[i][j] = 0;
+                        estadoSiguiente[x][y] = 0;
                     }
                 }
             }
 
-
         }
         estadoActual = estadoSiguiente;
+
     }
 
     public String toString() {

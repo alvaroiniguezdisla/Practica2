@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d6da28f-04bb-482e-b4d3-2e02ddcbd3ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practica2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aplicacion/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dominio/Tablero.java" afterDir="false" />
+    <list default="true" id="2d6da28f-04bb-482e-b4d3-2e02ddcbd3ee" name="Changes" comment="practica 2 terminada">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dominio/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dominio/Tablero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +53,34 @@
       <option name="presentableId" value="Default" />
       <updated>1678207956649</updated>
       <workItem from="1678207957785" duration="9629000" />
-      <workItem from="1679384530930" duration="4473000" />
+      <workItem from="1679384530930" duration="6472000" />
     </task>
+    <task id="LOCAL-00001" summary="practica 2 terminada">
+      <created>1679389065815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679389065815</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="practica 2 terminada" />
+    <option name="LAST_COMMIT_MESSAGE" value="practica 2 terminada" />
   </component>
 </project>
