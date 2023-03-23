@@ -1,11 +1,12 @@
 # Practica2
-class Principal
+
+# Class Principal
 Aplicación principal encargada de ejecutar metodos. Crea un tablero y ejecuta métodos para que este vaya cambiando de estado.Ejecuta también el tablero creado por montecarlo.
 
-class Tablero
-Lectura del tablero,analizar y leer el estado actual y transitar al estado siguiente.Támbien genera un tablero 'random ' por montecarlo.
+# Class Tablero
+Lectura del tablero,analizar y leer el estado actual y transitar al estado siguiente.También genera un tablero 'random ' por montecarlo.
 
-Licencia
+# Licencia
 Copyright [2023] [Álvaro Íñiguez Disla]
         Licensed under the Apache License, Version 2.0 (the "License");
         you may not use this file except in compliance with the License.
